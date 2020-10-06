@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HIỂN THỊ ĐẦU RA</title>
+</head>
+<body>
+    <!-- Bài tập 1: Hiển thị kết quả sử dụng hàm alert():-->
+    <button type="button" onclick="showMsg();">Click Me!</button>
+    <script>
+        function showMsg(){
+            alert('Xin Chào!');
+        }
+    </script>
+    <br>
+    <br>
+    <!--Bài tập 2: Hiển thị kết quả sử dụng thẻ HTML:-->
+    <div id="MessageDiv">
+    </div>
+    <button type="button" onclick="showMessage1()">Click Me!!</button>
+    <script>
+        function showMessage1(){
+            document.getElementById("MessageDiv").innerHTML="Xin Chào!!"
+        }
+    </script>
+    <!--Bài tập 3: Hiển thị kết quả sử dụng hàm document.write():-->
+    <button type="button" onclick="showMessage2();">Click Me!!!</button>
+    <script>
+        function showMessage2(){
+            document.write('Xin Chào!!!');
+        }
+    </script>
+    <!--Bài tập 4: Hiển thị kết quả sử dụng hàm console.log()-->
+    <button type="button" onclick="showMessage3()">Click Me!!!!</button>
+    <script>
+        function showMessage3(){
+            console.log('Xin Chào!!!!')
+        }
+    </script>
+</body>
+</html>
