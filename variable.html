@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KHAI BÁO VÀ SỬ DỤNG BIẾN</title>
+</head>
+<body>
+    <!--Bài 1-->
+    <script>
+        let i =10;
+        let f = 20.5;
+        let b = true;
+        let s = "Hà Nội";
+        document.write("i= "+ i);
+        document.write ('</br>');
+        document.write("f = "+f);
+        document.write ('</br>');
+        document.write ("b = "+b);
+
+
+    </script>
+    <br>
+    <!--Bài 2-->
+    <script>
+        let width=20;
+        let heigth=10;
+        let area = width*heigth;
+        document.write("Area = "+ area);
+    </script>
+    <!--Bài 3-->
+    <br>
+    <button type="button" onclick="myFunction()">Nhập vào số a</button>
+    <button type="button" onclick="myFunction()">Nhập vào số b</button>
+    <p id="demo"></p>
+   <script>
+       function myFunction(){
+       a = prompt("nhập số a");
+       b = prompt ("nhập số b");
+       if(a%b==0){
+           alert("a là bội số của b");
+       }
+       else{
+           alert("a không là bội số của b");
+       }
+    }
+
+    </script>
+    
+</body>
+</html>
